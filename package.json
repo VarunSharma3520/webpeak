@@ -1,0 +1,22 @@
+{
+  "name": "webpeak",
+  "version": "1.0.0",
+  "description": "web-crawling utility",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "scripts": {
+    "test": "node test/test.ts",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
