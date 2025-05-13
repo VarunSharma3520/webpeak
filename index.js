@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/varun', (req, res) => {
+  res.send('Hello World!')
+})
+
 app.listen(port, () => {
   console.log(`Application running on: http://localhost:${port}`)
 })
